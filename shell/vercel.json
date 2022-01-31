@@ -5,7 +5,11 @@
       {
         "source": "/dashboard",
         "destination": "https://svelte-multi-test-dashboard.vercel.app"
+      },
+       {
+        "source": "/reports",
+        "destination": "https://svelte-multi-test-reports.vercel.app"
       }
     ]
    
-}
+  }
