@@ -1,11 +1,10 @@
 {
     
-    "rewrites": 
-     [
+  "routes" : [
       {
-        "source": "/dashboard",
-        "destination": "https://svelte-multi-test-dashboard.vercel.app"
+          "src": "/dashboard",
+          "dest": "https://svelte-multi-test-dashboard.vercel.app"
       }
-    ]
+  ]
    
 }
