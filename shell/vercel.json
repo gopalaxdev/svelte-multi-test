@@ -8,7 +8,7 @@
       },
       {
         "source": "/_app/:path*",
-        "destination": "https://svelte-multi-test-dashboard.vercel.app"
+        "destination": "https://svelte-multi-test-dashboard.vercel.app/_app/:path*"
       }
     ]
    
