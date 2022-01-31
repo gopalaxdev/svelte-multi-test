@@ -6,10 +6,6 @@
         "source": "/dashboard",
         "destination": "https://svelte-multi-test-dashboard.vercel.app"
       }
-    //   {
-    //     "source": "/_app/:path*",
-    //     "destination": "https://svelte-multi-test-dashboard.vercel.app/_app/:path*"
-    //   }
     ]
    
 }
