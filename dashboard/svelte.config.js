@@ -13,7 +13,7 @@ const config = {
 		// hydrate the <div id="svelte"> element in src/app.html
 		target: '#svelte',
 		path: {
-			assets: 'https://svelte-multi-test-dashboard.vercel.app',
+			//	assets: 'https://svelte-multi-test-dashboard.vercel.app',
 			base: '/dashboard'
 		}
 	}
