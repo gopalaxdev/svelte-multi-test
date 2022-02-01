@@ -15,6 +15,13 @@ const config = {
 		vite: {
 			define: {
 				'process.env': process.env
+			},
+			server: {
+				proxy: {
+					'/reports': {
+						rewrite: () => 'https://svelte-multi-test-reports.vercel.app'
+					}
+				}
 			}
 		}
 	}
