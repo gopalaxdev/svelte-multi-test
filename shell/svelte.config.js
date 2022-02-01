@@ -17,9 +17,19 @@ const config = {
 				'process.env': process.env
 			},
 			server: {
+				fs: {
+					strict: true,
+					allow: ['..']
+				},
 				proxy: {
 					'/reports': {
-						rewrite: () => 'https://svelte-multi-test-reports.vercel.app'
+						target: 'http://localhost:3001/',
+						changeOrigin: true,
+
+						rewrite: (path) => {
+							console.log('Inside rewite:');
+							return 'http://localhost:3001/';
+						}
 					}
 				}
 			}
