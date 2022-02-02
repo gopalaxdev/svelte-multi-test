@@ -24,11 +24,11 @@ const config = {
 				},
 				proxy: {
 					'/reports': {
-						target: 'https://svelte-multi-test-reports.vercel.app/',
+						target: 'https://svelte-multi-test-reports.vercel.app',
 						changeOrigin: false,
 						rewrite: (path) => {
 							console.log('Inside rewite:', path);
-							return path.replace(/^\/reports/, 'https://svelte-multi-test-reports.vercel.app/');
+							return path.replace(/^\/reports/, 'https://svelte-multi-test-reports.vercel.app');
 						}
 					}
 				}
